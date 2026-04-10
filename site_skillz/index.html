@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skillz - Conectando Talentos ao Mercado</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+<!-- LOADING SCREEN -->
+<div class="loader">
+  <div class="loader-content">
+    <img src="img/mini_logo_skillz_branca.webp" class="loader-logo">
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+</div>
+
+<!-- PARTICLE BACKGROUND -->
+<canvas id="particles"></canvas>
+
+<header class="header">
+  <div class="header-container">
+    <img src="img/mini_logo_skillz_branca.webp" class="logo" id="logo">
+    
+    <nav class="nav">
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#missao-visao" class="nav-link">Missão</a>
+      <a href="#servicos" class="nav-link">Serviços</a>
+      <a href="#Estagiários" class="nav-link">Estagiários</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+    
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" >
+  <div class="hero-content reveal">
+    <div class="hero-text">
+      <img src="img/logo_skillz_azul_alterada.webp" class="hero-logo" id="inicio">
+      <h1 class="hero-title">
+        Revelamos <span class="gradient-text">Talentos</span><br>
+        Conectamos <span class="gradient-text">Oportunidades</span>
+      </h1>
+      <p>Somos a ponte entre habilidades técnicas e o mercado. Transformamos jovens qualificados em profissionais que geram resultados reais para empresas inovadoras.</p>
+
+      <div class="hero-proof">
+  <span>Talentos em formação</span>
+  <span>•</span>
+  <span>Experiência real</span>
+  <span>•</span>
+  <span>Preparados para o mercado</span>
+</div>
+      
+</section>
+
+<!-- SOBRE -->
+<section class="sobre" id="sobre">
+  <div class="container reveal">
+    <h2 class="section-title">Quem Somos</h2>
+    <div class="content" >
+      <div class="info">
+        <img src="img/logo_skillz_azul.webp" class="sobre-logo" id="sobre">
+        <p>Convidamos você a transformar seu talento em oportunidades reais. Conectamos jovens qualificados a empresas, atuando como uma ponte entre habilidades técnicas e o mercado, superando barreiras como falta de experiência e visibilidade.</p>
+        <p class="info-highlight">Nosso objetivo é impulsionar sua trajetória profissional, dando visibilidade ao seu potencial e conectando você a oportunidades de crescimento, renda e protagonismo.</p>
+      </div>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="img/foto_tecnologia_1920x1080.jpg" class="slide active">
+          <img src="img/eletrica.jpg" class="slide">
+          <img src="img/arduino.jpg" class="slide">
+        </div>
+        <div class="slider-nav">
+          <span class="slider-dot active" data-slide="0"></span>
+          <span class="slider-dot" data-slide="1"></span>
+          <span class="slider-dot" data-slide="2"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSÃO VISÃO VALORES -->
+<section class="missao-visao" id="missao-visao">
+  <div class="container reveal">
+    <h2 class="section-title" >Nossa Essência</h2>
+    <div class="missao-grid">
+      <div class="missao-card">
+        <div class="missao-icon">
+          <i class="fas fa-bullseye"></i>
+        </div>
+        <h3>Missão</h3>
+        <p>Revelar e desenvolver talentos técnicos, conectando jovens qualificados a empresas que buscam inovação e resultados, transformando conhecimento prático em oportunidades reais de crescimento profissional.</p>
+      </div>
+      <div class="missao-card">
+        <div class="missao-icon">
+          <i class="fas fa-mountain"></i>
+        </div>
+        <h3>Visão</h3>
+        <p>Ser a principal ponte entre habilidades técnicas emergentes e o mercado de trabalho, criando um ecossistema onde talentos são descobertos, valorizados e impulsionados para protagonismo profissional.</p>
+      </div>
+      <div class="missao-card">
+        <div class="missao-icon">
+          <i class="fas fa-gem"></i>
+        </div>
+        <h3>Valores</h3>
+        <p>Excelência técnica, aprendizado prático, conexão autêntica, inovação contínua e compromisso com o desenvolvimento humano e profissional sustentável.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS (SEM "Mais Popular" + Borda Dourada nos 3) -->
+<section class="servicos" id="servicos">
+  <div class="container reveal">
+    <h2 class="section-title">Nossos Serviços</h2>
+    <div class="cards">
+      <div class="card gold-border reveal-delay-1">
+        <div class="card-icon">
+          <img src="img/mini_logo_skillz_azul.webp" alt="Marketing">
+        </div>
+        <h3>Marketing</h3>
+        <p>Aprenda construindo projetos reais.</p>
+        <div class="card-tech">
+          <span>SEO</span>
+          <span>Ads</span>
+          <span>Design</span>
+        </div>
+      </div>
+
+      <div class="card gold-border reveal-delay-2">
+        <div class="card-icon">
+          <img src="img/mini_logo_skillz_azul.webp" alt="Mecatrônica">
+        </div>
+        <h3>Mecatrônica</h3>
+        <p>Evolução guiada com acompanhamento.</p>
+        <div class="card-tech">
+          <span>Robótica</span>
+          <span>Automação</span>
+          <span>IoT</span>
+        </div>
+      </div>
+
+      <div class="card gold-border reveal-delay-3">
+        <div class="card-icon">
+          <img src="img/mini_logo_skillz_azul.webp" alt="Programação">
+        </div>
+        <h3>Programação</h3>
+        <p>Experiência semelhante ao mercado.</p>
+        <div class="card-tech">
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>Fullstack</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALUNOS -->
+<section class="alunos" id="Estagiários">
+  <div class="container reveal">
+    <h2 class="section-title">Nossos Estagiários</h2>
+    <div class="alunos-grid">
+      <div class="aluno-card">
+        <img src="img/mini_logo_skillz_branca.webp">
+        <h4>Aluno 1</h4>
+        <div class="aluno-stats">
+          <span><i class="fas fa-star"></i> 4.9</span>
+          <span>Programação</span>
+        </div>
+      </div>
+      <div class="aluno-card">
+        <img src="img/mini_logo_skillz_branca.webp">
+        <h4>Aluno 2</h4>
+        <div class="aluno-stats">
+          <span><i class="fas fa-star"></i> 5.0</span>
+          <span>Mecatrônica</span>
+        </div>
+      </div>
+      <div class="aluno-card">
+        <img src="img/mini_logo_skillz_branca.webp">
+        <h4>Aluno 3</h4>
+        <div class="aluno-stats">
+          <span><i class="fas fa-star"></i> 4.8</span>
+          <span>Marketing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contato" id="contato">
+  <div class="container reveal">
+    <h2 class="section-title">Fale Conosco</h2>
+    <p class="section-subtitle">Entre em contato via WhatsApp ou Email</p>
+    
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>WhatsApp</h4>
+            <p>(41) 98723-6250</p>
+            <p>(41) 98794-3482</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>contato@skillz.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Localização</h4>
+            <p>Rua Paulo Setubal 2912<br>Boqueirão - PR</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-social">
+        <h3>Siga-nos</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/skillzhub.oficial/" target="_blank" class="social-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/5541987236250?text=Olá,%20vim%20pelo%20site%20e%20quero%20saber%20mais" target="_blank" class="social-link">
+  <i class="fab fa-whatsapp"></i>
+</a>
+          <a href="https://www.linkedin.com/company/skillz-hub-de-conex%C3%A3o-industrial/posts/?feedView=all" target="_blank" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="img/mini_logo_skillz_branca.webp" class="footer-logo">
+        <p>Transformando talentos em oportunidades.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p>(41) 98723-6250</p>
+        <p>contato@skillz.com</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Localização</h4>
+        <p>Rua Paulo Setubal 2912</p>
+        <p>Boqueirão - PR</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Skillz. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
