@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skillz - Conectando Talentos ao Mercado</title>
+  <title>Skillz: Hub de Conexão Industrial</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -25,22 +25,23 @@
 
 <header class="header">
   <div class="header-container">
-    <img src="img/mini_logo_skillz_branca.webp" class="logo" id="logo">
-    
-    <nav class="nav">
-      <a href="#inicio" class="nav-link">Início</a>
-      <a href="#sobre" class="nav-link">Sobre</a>
-      <a href="#missao-visao" class="nav-link">Missão</a>
-      <a href="#servicos" class="nav-link">Serviços</a>
-      <a href="#Estagiários" class="nav-link">Estagiários</a>
-      <a href="#contato" class="nav-link">Contato</a>
-    </nav>
-    
-    <div class="hamburger">
+    <img src="img/mini_logo_skillz_branca.webp" class="logo" id="logo" alt="Skillz Logo">
+
+    <div class="hamburger" id="hamburger" aria-label="Menu">
       <span></span>
       <span></span>
       <span></span>
     </div>
+
+    <nav class="nav" id="navMenu">
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#missao-visao" class="nav-link">Missão</a>
+      <a href="#hub" class="nav-link">Hub</a>
+      <a href="#servicos" class="nav-link">Serviços</a>
+      
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
   </div>
 </header>
 
@@ -48,7 +49,7 @@
 <section class="hero" >
   <div class="hero-content reveal">
     <div class="hero-text">
-      <img src="img/logo_skillz_azul_alterada.webp" class="hero-logo" id="inicio">
+      <img src="img/logosemxskillz-alterada.png" class="hero-logo" id="inicio">
       <h1 class="hero-title">
         Revelamos <span class="gradient-text">Talentos</span><br>
         Conectamos <span class="gradient-text">Oportunidades</span>
@@ -71,15 +72,15 @@
     <h2 class="section-title">Quem Somos</h2>
     <div class="content" >
       <div class="info">
-        <img src="img/logo_skillz_azul.webp" class="sobre-logo" id="sobre">
+        <img src="img/logosemxskillz-alterada.png" class="sobre-logo" id="sobre">
         <p>Convidamos você a transformar seu talento em oportunidades reais. Conectamos jovens qualificados a empresas, atuando como uma ponte entre habilidades técnicas e o mercado, superando barreiras como falta de experiência e visibilidade.</p>
         <p class="info-highlight">Nosso objetivo é impulsionar sua trajetória profissional, dando visibilidade ao seu potencial e conectando você a oportunidades de crescimento, renda e protagonismo.</p>
       </div>
       <div class="slider-container">
         <div class="slider">
-          <img src="img/foto_tecnologia_1920x1080.jpg" class="slide active">
-          <img src="img/eletrica.jpg" class="slide">
-          <img src="img/arduino.jpg" class="slide">
+          <img src="img/foto-cristhian.jpg" class="slide active">
+          <img src="img/foto-skillz-eletrica.jpg" class="slide">
+          <img src="img/foto-skillz-emerso.jpg" class="slide">
         </div>
         <div class="slider-nav">
           <span class="slider-dot active" data-slide="0"></span>
@@ -101,105 +102,142 @@
           <i class="fas fa-bullseye"></i>
         </div>
         <h3>Missão</h3>
-        <p>Revelar e desenvolver talentos técnicos, conectando jovens qualificados a empresas que buscam inovação e resultados, transformando conhecimento prático em oportunidades reais de crescimento profissional.</p>
+        <p>Revelamos e desenvolvemos talentos técnicos invisíveis, conectando jovens capacitados a empresas que buscam resultados. Eliminamos barreiras como falta de experiência, visibilidade e acesso, transformando conhecimento prático em renda, crescimento profissional e protagonismo. Acreditamos no potencial extraordinário de milhares de jovens e trabalhamos para dar visibilidade a esses talentos, criando oportunidades que podem mudar suas trajetórias.</p>
       </div>
       <div class="missao-card">
         <div class="missao-icon">
           <i class="fas fa-mountain"></i>
         </div>
         <h3>Visão</h3>
-        <p>Ser a principal ponte entre habilidades técnicas emergentes e o mercado de trabalho, criando um ecossistema onde talentos são descobertos, valorizados e impulsionados para protagonismo profissional.</p>
+        <p>Ser o maior hub de conexão entre jovens talentos técnicos e a indústria, transformando habilidades em oportunidades reais e criando um novo padrão de acesso ao mercado profissional. Queremos liderar uma mudança onde importa menos o currículo e mais a capacidade de fazer acontecer, construindo um ecossistema em que talentos ganham visibilidade, empresas encontram soluções com rapidez e nenhuma habilidade fique sem espaço para crescer.</p>
       </div>
       <div class="missao-card">
         <div class="missao-icon">
           <i class="fas fa-gem"></i>
         </div>
         <h3>Valores</h3>
-        <p>Excelência técnica, aprendizado prático, conexão autêntica, inovação contínua e compromisso com o desenvolvimento humano e profissional sustentável.</p>
+        <p> 1 - Talento acima de rótulos <br>
+            2 - Oportunidade como direito<br>
+            3 - Protagonismo jovem<br>
+            4 - Conexões que geram resultado<br>
+            5 - Execução acima de intenção<br>
+            6 - Transparência e confiança<br>
+            7 - Evolução contínua<br>
+            8 - Coragem para aparecer<br>
+            9 - Impacto real</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- SERVIÇOS (SEM "Mais Popular" + Borda Dourada nos 3) -->
-<section class="servicos" id="servicos">
-  <div class="container reveal">
-    <h2 class="section-title">Nossos Serviços</h2>
-    <div class="cards">
-      <div class="card gold-border reveal-delay-1">
-        <div class="card-icon">
-          <img src="img/mini_logo_skillz_azul.webp" alt="Marketing">
-        </div>
-        <h3>Marketing</h3>
-        <p>Aprenda construindo projetos reais.</p>
-        <div class="card-tech">
-          <span>SEO</span>
-          <span>Ads</span>
-          <span>Design</span>
-        </div>
-      </div>
+<section class="forca-hub" id="hub">
+  <div class="container">
 
-      <div class="card gold-border reveal-delay-2">
-        <div class="card-icon">
-          <img src="img/mini_logo_skillz_azul.webp" alt="Mecatrônica">
-        </div>
-        <h3>Mecatrônica</h3>
-        <p>Evolução guiada com acompanhamento.</p>
-        <div class="card-tech">
-          <span>Robótica</span>
-          <span>Automação</span>
-          <span>IoT</span>
-        </div>
-      </div>
+    <div class="forca-top reveal">
+      <span class="forca-badge">QUEM ESTÁ POR TRÁS</span>
 
-      <div class="card gold-border reveal-delay-3">
-        <div class="card-icon">
-          <img src="img/mini_logo_skillz_azul.webp" alt="Programação">
+      <h2 class="forca-title">
+        Força por <span>trás do hub</span>
+      </h2>
+
+      <p class="forca-subtitle">
+        A Skillz nasce da união entre visão, execução e crescimento.
+        Conheça quem transforma ideias em oportunidades todos os dias.
+      </p>
+    </div>
+
+    <div class="founders-grid reveal">
+
+      <!-- CARD 1 -->
+      <article class="founder-card">
+        <img src="img/pessoa1.jpg" alt="João Silva">
+
+        <div class="founder-overlay">
+          <div class="founder-mini">
+            <h3>João Silva</h3>
+            <span>Direção Estratégica</span>
+          </div>
+
+          <div class="founder-full">
+            <a href="https://www.linkedin.com/in/gabriely-gabardo-kugnoski-511b28274/" target="_blank" class="founder-linkedin">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+
+            <p>
+              “Grandes resultados começam antes da execução:
+              começam na clareza da visão. Meu papel é enxergar
+              caminhos, antecipar movimentos e construir o próximo nível.”
+            </p>
+          </div>
         </div>
-        <h3>Programação</h3>
-        <p>Experiência semelhante ao mercado.</p>
-        <div class="card-tech">
-          <span>Python</span>
-          <span>JavaScript</span>
-          <span>Fullstack</span>
+      </article>
+
+      <!-- CARD 2 -->
+      <article class="founder-card">
+        <img src="img/pessoa2.jpg" alt="Maria Costa">
+
+        <div class="founder-overlay">
+          <div class="founder-mini">
+            <h3>Maria Costa</h3>
+            <span>Execução & Operações</span>
+          </div>
+
+          <div class="founder-full">
+            <a href="https://www.linkedin.com/in/eberton-hil%C3%A1rio-da-rosa-4210a2295/" target="_blank" class="founder-linkedin">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+
+            <p>
+              “Ideias só ganham valor quando saem do papel.
+              Transformo planejamento em ação, processos em resultado
+              e metas em entregas reais.”
+            </p>
+          </div>
         </div>
-      </div>
+      </article>
+
+      <!-- CARD 3 -->
+      <article class="founder-card">
+        <img src="img/pessoa3.jpg" alt="Lucas Mendes">
+
+        <div class="founder-overlay">
+          <div class="founder-mini">
+            <h3>Lucas Mendes</h3>
+            <span>Expansão & Comunidade</span>
+          </div>
+
+          <div class="founder-full">
+            <a href="https://www.linkedin.com/in/oscar-alessandro-de-matos-086b3566/" target="_blank" class="founder-linkedin">
+  <i class="fab fa-linkedin-in"></i>
+</a>
+
+            <p>
+              “Nenhum crescimento acontece sozinho.
+              Minha missão é conectar pessoas, abrir portas
+              e transformar relacionamento em oportunidade.”
+            </p>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!--ABA SERVIÇOS-->
+<section class="aba-servicos" id="servicos">
+  <div class="container">
+    <div class="aba-wrapper">
+      <div class="aba-card">Marketing</div>
+      <div class="aba-card">Mecatrônica</div>
+      <div class="aba-card">Programação</div>
     </div>
   </div>
 </section>
 
-<!-- ALUNOS -->
-<section class="alunos" id="Estagiários">
-  <div class="container reveal">
-    <h2 class="section-title">Nossos Estagiários</h2>
-    <div class="alunos-grid">
-      <div class="aluno-card">
-        <img src="img/mini_logo_skillz_branca.webp">
-        <h4>Aluno 1</h4>
-        <div class="aluno-stats">
-          <span><i class="fas fa-star"></i> 4.9</span>
-          <span>Programação</span>
-        </div>
-      </div>
-      <div class="aluno-card">
-        <img src="img/mini_logo_skillz_branca.webp">
-        <h4>Aluno 2</h4>
-        <div class="aluno-stats">
-          <span><i class="fas fa-star"></i> 5.0</span>
-          <span>Mecatrônica</span>
-        </div>
-      </div>
-      <div class="aluno-card">
-        <img src="img/mini_logo_skillz_branca.webp">
-        <h4>Aluno 3</h4>
-        <div class="aluno-stats">
-          <span><i class="fas fa-star"></i> 4.8</span>
-          <span>Marketing</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- CONTATO -->
 <section class="contato" id="contato">
